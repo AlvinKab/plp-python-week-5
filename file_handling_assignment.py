@@ -1,0 +1,5 @@
+text_file = open("my_file.txt", "w")
+text_file.write("line 1\n")
+text_file.write(2)
+text_file.write("line 3\n")
+text_file.write("line 4\n", "Five\nLine 6")
